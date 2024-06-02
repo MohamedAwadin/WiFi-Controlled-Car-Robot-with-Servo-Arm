@@ -35,7 +35,7 @@ This project features a WiFi-controlled car robot equipped with an arm that has 
 
 ## Code Structure
 **1-mazinger_main.ino**
-The `main_code.ino` file serves as the main program file for the Mazinger project, responsible for coordinating the functionality of the robot, including motor movement, servo control, and handling client requests via a web interface. Here's a structured overview of its contents:
+The `mazinger_main.ino` file serves as the main program file for the Mazinger project, responsible for coordinating the functionality of the robot, including motor movement, servo control, and handling client requests via a web interface. Here's a structured overview of its contents:
 
 1. **File Information**: Provides essential details about the author, file name, layer, project name, microcontroller used, and version.
 
@@ -90,7 +90,7 @@ The `PageIndex.h` file contains the HTML code for the user interface web page of
 ## Repository Structure
 WiFi-Controlled-Car-Robot/
 ├── README.md
-├── Arduino_Code/
+├── mazinger_main/
 │ └── mazinger_main.ino
 | └── Config_File.h
 | └── Motors_ControlFunc.h
